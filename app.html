@@ -1,7 +1,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <a href="#!/" class="navbar-brand">Blockchain Demo</a>
+            <a href="#!/" class="navbar-brand">Business Blockchain Functional Playground</a>
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">
@@ -19,59 +19,13 @@
                         class="btn btn-default"
                         ng-if="!$root.expertMode"
                         ng-click="$root.expertMode = true;">
-                    Enable Expert Mode
+                    Enable Difficulty (optional)
                 </button>
             </form>
             <ul class="nav navbar-nav navbar-right">
-                <li ng-class="{active: $root.isActive('/hash')}">
-                    <a href="#!/hash">Hash</a>
-                </li>
-                <li ng-class="{active: $root.isActive('/block')}">
-                    <a href="#!/block">Block</a>
-                </li>
-                <li ng-class="{active: $root.isActive('/blockchain')}">
-                    <a href="#!/blockchain">Blockchain</a>
-                </li>
-                <li ng-class="{active: $root.isActive('/distributed')}">
-                    <a href="#!/distributed">Distributed</a>
-                </li>
-                <li ng-class="{active: $root.isActive('/tokens')}">
-                    <a href="#!/tokens">Tokens</a>
-                </li>
-                <li ng-class="{active: $root.isActive('/coinbase')}">
-                    <a href="#!/coinbase">Coinbase</a>
-                </li>
-
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" role="button">
-                        Advanced <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li ng-class="{active: $root.isActive('/ecc')}">
-                            <a href="#!/ecc">Elliptic Curve Cryptography / Key Pair</a>
-                        </li>
-                        <li ng-class="{active: $root.isActive('/hd-wallet')}">
-                            <a href="#!/hd-wallet">Hierarchical Deterministic Wallet</a>
-                        </li>
-                        <li ng-class="{active: $root.isActive('/bitcoin-block')}">
-                            <a href="#!/bitcoin-block">Bitcoin Block Parser</a>
-                        </li>
-                      <li ng-class="{active: $root.isActive('/shamir-secret-sharing')}">
-                        <a href="#!/shamir-secret-sharing">Shamir's Secret Sharing Scheme</a>
-                      </li>
-                      <li ng-class="{active: $root.isActive('/schnorr')}">
-                        <a href="#!/schnorr">BIP Schnorr Signatures</a>
-                      </li>
-                      <li ng-class="{active: $root.isActive('/transaction-creator')}">
-                        <a href="#!/transaction-creator">Transaction Creator</a>
-                      </li>
-                      <li ng-class="{active: $root.isActive('/aezeed')}">
-                        <a href="#!/aezeed">aezeed cipher seed scheme</a>
-                      </li>
-                      <li ng-class="{active: $root.isActive('/macaroon')}">
-                        <a href="#!/macaroon">Macaroons</a>
-                      </li>
-                    </ul>
+               <li ng-class="{active: $root.isActive('/block')}">
+                    <a href="http://businessblockchain.in">Business Blockchain</a>
+                            
                 </li>
             </ul>
         </div>
