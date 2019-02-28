@@ -2,7 +2,7 @@
 # Blockchain Demo
 A web-based demonstration of blockchain concepts.
 
-[Live version] BusinessBlockchain.in
+[Live version] [BusinessBlockchain.in](http://BusinessBlockchain.in)
 
 ## Send Thanks
 
